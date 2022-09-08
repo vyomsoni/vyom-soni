@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loginpage</title>
+    <link rel="stylesheet" href="style.css/style.css">
+</head>
+<body style="background:url(image/bg2.png);background-position-x: center;background-size: 1600px">
+<div style=" margin-top:100px;">
+     
+     <div style="width: 100%;flex-direction: column;align-items: center;display: flex;">
+        <p id="sid">
+                Login To Student Portal
+        </p>
+        <div style="display: flex; flex-direction:column;text-align: center;align-items: center;background-color: rgb(170 219 200 / 42%);padding: 70px 144px;
+        padding-left: 91px;">
+            <form id="Loginpage">
+            <div style="display: flex; flex-direction:row;text-align: center;align-items: center;">
+               
+            <label style="width: 200px;">
+                NAME
+            </label>
+            <p>
+                :
+            </p>
+            <input type="text" name="NAME" id="NAME">
+        </div>
+            <div style="display: flex; flex-direction:row;text-align: center;align-items: center;">
+                <label style="width: 200px;">
+                    PASSSWORD
+                </label>
+                <p>
+                    :
+                </p>
+                <input type="password" name="PASSSWORD" id="PASSWORD">
+            
+            </div>
+            <div style="display: flex; flex-direction:row;text-align: center;align-items: center;">
+       <input type="submit" id="submit" name="Login" value="Login" style="margin-left: 92px;">
+       <input type="reset" name="Cancel" value="Canel"style="margin-left: 108px;">
+        </div>
+    </form>
+    </div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+<script src="mail.js"></script>
+</body>
+</html>
